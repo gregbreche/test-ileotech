@@ -1,7 +1,29 @@
+@font-face {
+    font-family: Helvetica-light;
+    src: url(../Resources/Font/HelveticaNeue-Light.ttf),
+    url(../Resources/Font/HelveticaNeue-Light.eot);
+}
+
 body {
-    /*background-image: url(../Resources/slide-image-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;*/
     background-image: url(../Resources/slide-image-1.jpg);
     background-size: cover;
+}
+
+.change_img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    color: white;
+}
+
+#previous,
+#next {
+    position: relative;
+    right: -3px;
+}
+
+.lorem {
+    position: absolute;
+    bottom: 0;
+    left: 12%;
 }
